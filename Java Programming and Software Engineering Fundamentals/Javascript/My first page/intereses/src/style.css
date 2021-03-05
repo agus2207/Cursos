@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+  color: purple;
+}
+h2{
+  color: green;
+}
+table, th, td{
+  border: 1px solid black;
+}
+.music{
+  background-color: #90EE90;
+}
+.movie{
+  background-color: #FFF5EE;
+}
+.serie{
+  background-color: #FF6347;
+}
+th{
+  background-color: #DDA0DD;
+}

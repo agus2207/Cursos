@@ -1,0 +1,24 @@
+h1{
+  font: arial;
+  color: dimgray;
+}
+
+div{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+  font-size: 16pt;
+}
+
+.orangeback{
+  background-color: orange; 
+}
+
+.fuchsiaback{
+  background-color: fuchsia; 
+}
+
+.blueback{
+  background-color: blue;
+}

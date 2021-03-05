@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Final Proyect</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'>
+</script>
+
+<h1>Final proyect</h1>
+
+<canvas id="c1">
+  
+</canvas>
+
+<h2>Load image</h2>
+
+<p>
+  <input id="if" type="file" multiple="false" accept="image/*" onchange="upload_img()">
+</p>
+
+<h2>Filters</h2>
+<p>
+  <input type="button" value="Grayscale"  onclick="grayscale()">
+  <input type="button" value="Red"  onclick="redfil()">
+  <input type="button" value="Window"  onclick="freefil()">
+  <input type="button" value="Rainbow"  onclick="rainbow()">
+  <input type="button" value="Blur Filter"  onclick="blurf()">
+</p>
+
+<p>
+  <input type="button" value="Reset image"  onclick="originally()">
+</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

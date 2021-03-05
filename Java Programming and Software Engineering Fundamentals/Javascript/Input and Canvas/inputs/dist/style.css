@@ -1,0 +1,15 @@
+h1{
+  font: arial;
+  color: dimgray;
+}
+
+canvas{
+  width: 500pt;
+  height:200pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+}
+
+.orangeback{
+  background-color: orange; 
+}
