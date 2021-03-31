@@ -226,7 +226,7 @@ while True:
             player_wins(current_chips)
         elif dealer_hand.value > player_hand.value: #Dealer has a greater hand than the player
             dealer_wins(current_chips)
-        elif dealer_hand.vale == player_hand.value: #A tie
+        elif dealer_hand.value == player_hand.value: #A tie
             push()
     # Inform Player of their chips total 
     print("You actual chips are:", current_chips.total)
